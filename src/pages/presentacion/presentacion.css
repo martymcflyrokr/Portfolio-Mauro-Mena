@@ -1,0 +1,116 @@
+main{
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1600px;
+    min-height: 100vh;
+    padding: 0px 150px;
+    background-color:#1B2430;
+}
+
+.presentation-section{
+    background-color:#1B2430;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+
+.presentation-section p{
+    color: whitesmoke;
+    margin: 0;
+}
+
+.titulo-primera-linea{
+    color: whitesmoke;
+    font-size: 7rem;
+    font-weight: 650;
+    margin: 0;
+}
+
+.titulo-segunda-linea{
+    color: gray;
+    font-size: 7rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.que-hago-caja{
+    display: flex;
+    width: 60%;
+    
+}
+
+.que-hago{
+    width: fit-content;
+}
+
+/* Media para pantallas chicas */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {    
+    
+    .titulo-primera-linea{
+        font-size: 4em;
+    }
+    .titulo-segunda-linea{
+        font-size: 4em;
+    }
+    main {
+        padding: 10px 0px;
+        background-color:#1B2430;
+        }
+    
+
+
+}
+
+/* Media para Celulares */
+@media only screen and (min-device-width: 480px) and (max-device-width: 768px) {    
+    
+    .titulo-primera-linea{
+        font-size: 4em;
+    }
+    .titulo-segunda-linea{
+        font-size: 4em;
+    }
+    .presentation-section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        padding: 0px;
+        margin: 0px;
+        text-align: left;
+        
+    }
+    main {
+        padding: 20px;
+        background-color:#1B2430;
+    }
+
+}
+
+/* Media para grandes */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1516px){
+    .titulo-primera-linea{
+        font-size: 6.6m;
+    }
+    .titulo-segunda-linea{
+        font-size: 6.6em;
+    }
+
+    main {
+        padding: 50px;
+        background-color:#1B2430;
+    }
+
+}
+
+
+
